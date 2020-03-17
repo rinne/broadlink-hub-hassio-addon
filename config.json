@@ -1,0 +1,32 @@
+{
+	"name": "Broadlink WiFi Switch Hub",
+	"version": "1",
+	"slug": "broadlink-wifi-switch-hub-hassio-addon",
+	"description": "Controller addon for Broadlink WiFi remote controlled switches",
+	"arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+	"startup": "before",
+	"boot": "auto",
+	"options": {
+		"name": "Home",
+		"user": "broadlink",
+		"password": "secret",
+		"password_hash": null,
+		"device_ips": [],
+		"device_timeout": 500,
+		"update_interval": 5000,
+		"debug": false
+	},
+	"schema": {
+		"name": "str",
+		"user": "str",
+		"password": "password",
+		"password_hash": "str?",
+		"device_ips": ["str"],
+		"device_timeout": "int?",
+		"update_interval": "int?",
+		"debug": "bool?"
+	},
+	"ports": {
+		"8525/tcp": null
+	}
+}
