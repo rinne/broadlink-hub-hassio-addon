@@ -12,6 +12,7 @@
 		"password": "secret",
 		"password_hash": null,
 		"device_ips": [],
+		"device_ip_ranges": [],
 		"device_timeout": 500,
 		"update_interval": 5000,
 		"debug": false
@@ -22,6 +23,7 @@
 		"password": "password",
 		"password_hash": "str?",
 		"device_ips": ["str"],
+		"device_ip_ranges": ["str"],
 		"device_timeout": "int?",
 		"update_interval": "int?",
 		"debug": "bool?"
