@@ -8,7 +8,7 @@ RUN apk add --no-cache git nodejs npm
 COPY run.sh /
 RUN chmod 755 /run.sh
 
-RUN git clone https://github.com/rinne/node-broadlink-wifi-switch-hub.git node-service
+RUN git clone --branch hassio --single-branch https://github.com/rinne/node-broadlink-wifi-switch-hub.git node-service
 
 RUN ( cd /node-service && npm install )
 
