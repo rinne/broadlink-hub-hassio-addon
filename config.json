@@ -15,6 +15,7 @@
 		"device_ip_ranges": [],
 		"device_timeout": 500,
 		"update_interval": 5000,
+		"power_set_timeout": 10000,
 		"unreachable_grace_time": 10000,
 		"debug": false
 	},
@@ -27,6 +28,7 @@
 		"device_ip_ranges": ["str"],
 		"device_timeout": "int?",
 		"update_interval": "int?",
+		"power_set_timeout": "int?",
 		"unreachable_grace_time": "int?",
 		"debug": "bool?"
 	},
