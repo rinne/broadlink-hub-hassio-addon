@@ -15,7 +15,9 @@ echo "$(cat /data/options.json)"
 echo ''
 echo "Starting the service"
 
-cd /node-service && node ./blhub.js --listen-address=0.0.0.0 --listen-port=8525 --hassio-addon-config=/data/options.json
+( cd /node-service && node ./blhub.js --version )
+echo ''
+( cd /node-service && node ./blhub.js --listen-address=0.0.0.0 --listen-port=8525 --hassio-addon-config=/data/options.json )
 
 echo ''
 echo "Service bails out"
