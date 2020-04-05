@@ -15,6 +15,7 @@
 		"device_ip_ranges": [],
 		"device_timeout": 500,
 		"update_interval": 5000,
+		"unreachable_grace_time": 10000,
 		"debug": false
 	},
 	"schema": {
@@ -26,6 +27,7 @@
 		"device_ip_ranges": ["str"],
 		"device_timeout": "int?",
 		"update_interval": "int?",
+		"unreachable_grace_time": "int?",
 		"debug": "bool?"
 	},
 	"ports": {
