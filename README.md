@@ -1,7 +1,7 @@
 In a Nutshell
 =============
 
-A Hassio addon wrapping a Broadlink WiFi Switch Hub.
+A Hassio addon wrapping a Broadlink Hub.
 
 
 Author
