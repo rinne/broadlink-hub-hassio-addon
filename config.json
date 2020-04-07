@@ -1,8 +1,8 @@
 {
-	"name": "Broadlink WiFi Switch Hub",
+	"name": "Broadlink Hub",
 	"version": "1",
-	"slug": "broadlink-wifi-switch-hub-hassio-addon",
-	"description": "Controller addon for Broadlink WiFi remote controlled switches",
+	"slug": "broadlink-hub-hassio-addon",
+	"description": "Controller addon for Broadlink remote controlled switches",
 	"arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
 	"startup": "before",
 	"boot": "auto",
