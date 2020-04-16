@@ -15,7 +15,7 @@ Steps to install the component to Hassio:
 
 ```
 $ cd /addons
-$ git clone https://github.com/rinne/broadlink-hub-hass-component.git
+$ git clone https://github.com/rinne/broadlink-hub-hassio-addon.git
 ```
 
 3. Navigate to Add-on Store -tab in the Supervisor -screen of your Home
@@ -49,9 +49,8 @@ $ git clone https://github.com/rinne/broadlink-hub-hass-component.git
    (https://github.com/rinne/broadlink-hub-hass-component).
 
 
-============
-
-Steps to install the component to Hassio:
+Steps to install the component to Hassio
+----------------------------------------
 
 1. Set up ssh connection to your Hassio host and log in.
 
