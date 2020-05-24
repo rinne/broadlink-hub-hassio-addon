@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
-RUN apk add --no-cache git nodejs npm
+RUN apk add --no-cache git nodejs npm python3 gcc g++ libc-dev make
 
 COPY run.sh /
 RUN chmod 755 /run.sh
